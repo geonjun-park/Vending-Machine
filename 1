@@ -1,0 +1,14 @@
+price=int(input("price: "))
+pay=int(input("pay: "))
+
+change= pay-price
+
+a=change//1000
+b=change%1000//500
+c=change%500//100
+d=change%100//50
+
+print(f"1000원: {a}개" )
+print(f"500원: {b}개")
+print(f"100원: {c}개")
+print(f"50원: {d}개")
